@@ -1,0 +1,36 @@
+<!DOCTYPE HTML> 
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>About Me</title>
+        <meta name="viewport" content="width=device-width">
+        <link href="fluid.css" rel="stylesheet" type="text/css" media="only screen and 
+        (min-width:960px)"> 
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen 
+        and (min-width:481px) and (max-width:960px)">
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen 
+        and (max-width:480px)"> 
+    </head> 
+    <body> 
+        <div id="wrapper"> 
+            <h1>About Me</h1>
+            <video width="320" height="300" controls poster = "IhsaanPhoto.jpeg" preload id = "video"> 
+            <source src="BikeVideo.mp4" type="video/mp4"> 
+            </video>
+            <br> 
+            <button onclick ="playPause()">Play or pause the video</button>
+            <h4>Hello everyone! My name is Ihsaan. That's me on the thumbnail of the video!
+                I am a student at Ontario Tech University studying in the Technology Management program (Bachelor of Information Technology).
+                If you watch my video, you can see that I love riding motorcycles with my friends in my free time. My hobbies also include playing soccer and chess!</h4>
+            <script> 
+             var myVideo = document.getElementById("video"); 
+            function playPause() 
+            { 
+            if (myVideo.paused) 
+            myVideo.play(); 
+            else myVideo.pause(); 
+            } 
+            </script>
+        </div>
+    </body> 
+</html> 

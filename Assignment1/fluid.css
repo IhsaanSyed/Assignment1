@@ -1,0 +1,96 @@
+@charset "UTF-8"; 
+
+body  
+{   background: black;
+    background: -moz-linear-gradient(top, blue 0%, lightblue 100%); 
+    background: -webkit-linear-gradient(top,blue 0%, lightblue 100%); 
+    background: -o-linear-gradient(top, blue 0%, lightblue 100%); 
+    background: linear-gradient(to bottom, blue 0%, lightblue 100%);
+    background-color: black; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    padding:0px; 
+    margin:0px; 
+} 
+
+h1,h2,h3,h4,h5,h6,p,li
+{ 
+    margin-left:15px; 
+} 
+#wrapper  
+{ 
+    width: 66%; 
+    height: 800px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background: black;
+    background: -moz-linear-gradient(top, red 0%, white 100%); 
+    background: -webkit-linear-gradient(top,red 0%, white 100%); 
+    background: -o-linear-gradient(top,red 0%, white 100%); 
+    background: linear-gradient(to bottom,red 0%, white 100%);
+    background-color: black; 
+} 
+#right-column  
+{ 
+    float: right; 
+    width: 66%; 
+    height: 600px; 
+    background: black;
+    background: -moz-linear-gradient(top, red 0%, white 100%); 
+    background: -webkit-linear-gradient(top,red 0%, white 100%); 
+    background: -o-linear-gradient(top,red 0%, white 100%); 
+    background: linear-gradient(to bottom,red 0%, white 100%);
+    background-color: black;
+} 
+#left-column  
+{ 
+    float: left; 
+    width: 33%; 
+    background: black;
+    background: -moz-linear-gradient(top, red 0%, white 100%); 
+    background: -webkit-linear-gradient(top,red 0%, white 100%); 
+    background: -o-linear-gradient(top,red 0%, white 100%); 
+    background: linear-gradient(to bottom,red 0%, white 100%);
+    background-color: black;
+    height:600px; 
+} 
+#footer  
+{ 
+    height:80px; 
+    background: gray;
+} 
+#banner 
+{ 
+    height:120px; 
+    background-color:red; 
+} 
+
+.clear 
+{ clear: both; 
+}
+
+video { 
+    width: 400px; 
+    padding: 15px; 
+    margin: 15px; 
+    background-color:black; 
+    border:2px white solid; 
+    box-shadow: 10px 10px 5px black; 
+}
+
+button { 
+    background-color:black; 
+    color:white; 
+    height:40px; 
+    border:2px white solid; 
+    box-shadow: 10px 10px 5px black; 
+    border-radius: 5px; 
+} 
+
+button:hover { 
+    background-color:beige; 
+    color:black; 
+    height:40px; 
+    border:2px white solid; 
+    box-shadow: -10px -10px 5px black; 
+    border-radius: 5px; 
+} 
